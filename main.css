@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+body{
+    background-color: hsl(30, 54%, 90%);
+}
+.container{
+    background-color: white;
+}
+.image-container img{
+    width: 100%;
+    object-fit: contain;
+}
+.text-section{
+    padding: 10px 20px;
+}
+.Header{
+    font-size: 40px;
+    padding: 15px 0;
+    font-family: 'Young Serif', serif;
+    font-weight: 100;
+}
+.Header-section{
+    padding-bottom: 20px;
+}
+.Header-section p{
+    font-size: 17px;
+    color:hsl(30, 10%, 34%)
+}
+.section_1{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.section_1 h4{
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+    color:  hsl(332, 51%, 32%);
+    font-size: 20px;
+}
+.section_1 ul{
+    padding: 0 20px;
+    margin: 10px 0;
+}
+.section_1 li{
+    padding-bottom: 10px;
+    font-size: 16px;
+    color:hsl(30, 10%, 34%);
+}
+hr{
+ color:hsl(30, 10%, 34%);
+}
+.section_2{
+    margin: 20px 0;
+}
+.section_2 h1{
+    margin-top: 10px;
+    font-family: 'Young Serif', serif;
+    font-weight: 100;
+    color: hsl(14, 45%, 36%);
+    font-size: 30px;
+}
+.section_2 ul{
+    padding: 20px ;
+    line-height: 25px;
+    color:hsl(30, 10%, 34%)
+}
+.section_2 li::marker {
+    color: hsl(14, 45%, 36%)
+}
+.section_3 {
+    margin: 20px 0;
+}
+.section_3 h1{
+    margin-top: 10px;
+    font-family: 'Young Serif', serif;
+    font-weight: 100;
+    color: hsl(14, 45%, 36%);
+    font-size: 30px;
+}
+.section_3 ol, .section_3 li{
+    padding: 0 20px;
+    margin: 20px 0;
+    color:hsl(30, 10%, 34%)
+}
+.section_3 li::marker{
+    font-weight: 600;
+    color: hsl(14, 45%, 36%)
+}
+.section_4{
+    margin: 20px 0;
+}
+.section_4 h1{
+    margin: 10px 0;
+    font-family: 'Young Serif', serif;
+    font-weight: 100;
+    color: hsl(14, 45%, 36%);
+    font-size: 30px;
+}
+.Nutrition-table-header{
+    margin: 20px 0;
+    color:hsl(30, 10%, 34%)
+}
+.table {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    border-bottom: 1px solid hsl(30, 10%, 34%);
+    padding: 10px ;
+    color:hsl(30, 10%, 34%)
+}
+.table p{
+    width: 50%;
+}
+.table h6{
+    font-size: 15px;
+    color: hsl(14, 45%, 36%)
+}
+.attribution{
+    padding: 0 20px ;
+    font-size: 13px;
+}
+/* Desktop */
+@media (min-width: 1024px) and (max-width: 2560px) {
+    .container {
+        width: 70%; 
+        margin: 100px auto; 
+        padding: 40px;
+        border-radius: 15px;
+    }
+    .image-container img{
+        border-radius: 15px;
+    }
+}
